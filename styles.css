@@ -1,0 +1,178 @@
+html {
+    background: #f8f5f1;
+}
+
+
+body {
+    font-family: 'Roboto Condensed', Sans-Serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f8f5f1;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar-corner {
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    height: 100px;
+}
+
+h5 {
+ color: #f8f5f1;
+ opacity: 0;
+}
+
+.date-wrap {
+    Font-Family: 'Cabin', Sans-Serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 6px;
+    height:35px;
+    background: #f8a488;
+    border-radius: 10px;
+    position: fixed;
+    top: 5px;
+    right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+img, video {
+    margin: 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.jan {
+    position: absolute;
+    color: #45526c;
+    font-size: 100px;
+    letter-spacing: 10px;
+    transform: rotate(-90deg) translate(-90px, -550px);
+}
+
+#jan-line {
+    position: absolute;
+    background: #45526c;
+    width: 600px;
+    height: 5px;
+    transform: rotate(-90deg) translate(-425px, 300px);
+    transition: 0.5s;
+}
+
+.feb {
+    position: absolute;
+    color: #45526c;
+    font-size: 100px;
+    letter-spacing: 10px;
+    transform: rotate(-90deg) translate(-200px, -570px);
+}
+
+#feb-line {
+    position: absolute;
+    background: #45526c;
+    width: 800px;
+    height: 5px;
+    transform: rotate(-90deg) translate(-625px, -100px);
+    transition: 0.5s;
+}
+
+
+.may {
+    position: absolute;
+    color: #45526c;
+    font-size: 100px;
+    letter-spacing: 10px;
+    transform: rotate(-90deg) translate(0px, -450px);
+}
+
+#may-line {
+    position: absolute;
+    background: #45526c;
+    width: 450px;
+    height: 5px;
+    transform: rotate(-90deg) translate(-325px, 75px);
+    transition: 0.5s;
+}
+
+
+.month-wrap {
+    width: 0px;
+    height: 0px;
+}
+
+#june-line {
+position: absolute;
+    background: #45526c;
+    width: 600px;
+    height: 5px;
+    transform: rotate(-90deg) translate(-325px, 0px);
+    transition: 0.5s;
+}
+
+#july-line {
+position: absolute;
+    background: #45526c;
+    width: 1000px;
+    height: 5px;
+    transform: rotate(-90deg) translate(-525px, -200px);
+    transition: 0.5s;
+}
+
+.aug {
+    position: absolute;
+    color: #45526c;
+    font-size: 100px;
+    letter-spacing: 10px;
+    transform: rotate(-90deg) translate(-90px, -520px);
+}
+
+#aug-line {
+position: absolute;
+    background: #45526c;
+    width: 1200px;
+    height: 5px;
+    transform: rotate(-90deg) translate(-625px, -300px);
+    transition: 0.5s;
+}
+
+
+#left-line {
+position: absolute;
+    background: #45526c;
+    width: 1200px;
+    height: 5px;
+    transform: rotate(-90deg) translate(600px, -900px);
+    transition: 0.5s;
+}
