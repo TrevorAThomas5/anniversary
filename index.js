@@ -19,6 +19,33 @@ window.addEventListener('scroll', function(event) {
         text = document.getElementById('date-text');
         text.style.opacity = '0';
     }, 1000);
+
+    if(newPos < 35)
+        text.innerHTML = 'Jan 2020';
+    else if(newPos < 75)
+        text.innerHTML = 'Feb 2020';
+    else if(newPos < 120)
+        text.innerHTML = 'May 2020';
+    else if(newPos < 160)
+        text.innerHTML = 'Jun 2020';
+    else if(newPos < 240)
+        text.innerHTML = 'Jul 2020';
+    else if(newPos < 400)
+        text.innerHTML = 'Aug 2020';
+    else if(newPos < 600)
+        text.innerHTML = 'Sep 2020';
+    else if(newPos < 635)
+        text.innerHTML = 'Oct 2020';
+    else if(newPos < 675)
+        text.innerHTML = 'Nov 2020';
+    else if(newPos < 725)
+        text.innerHTML = 'Dec 2020';
+    else if(newPos < 830)
+        text.innerHTML = 'Feb 2021';
+    else
+        text.innerHTML = 'Mar 2021';
+
+
 }, false );
 
 
