@@ -176,3 +176,38 @@ position: absolute;
     transform: rotate(-90deg) translate(600px, -900px);
     transition: 0.5s;
 }
+
+#left-line2 {
+    position: absolute;
+    background: #45526c;
+    width: 1200px;
+    height: 5px;
+    transform: rotate(-90deg) translate(800px, -900px);
+    transition: 0.5s;
+}
+
+.sep {
+    position: absolute;
+    color: #45526c;
+    font-size: 100px;
+    letter-spacing: 10px;
+    transform: rotate(-90deg) translate(-200px, -600px);
+}
+
+#oct-line {
+    position: absolute;
+    background: #45526c;
+    width: 300px;
+    height: 5px;
+    transform: rotate(-90deg) translate(-175px, 150px);
+    transition: 0.5s;
+}
+
+.nov {
+    position: absolute;
+    color: #45526c;
+    font-size: 100px;
+    letter-spacing: 10px;
+    transform: rotate(-90deg) translate(-150px, -575px);
+}
+
